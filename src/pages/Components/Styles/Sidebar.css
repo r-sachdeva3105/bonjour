@@ -1,0 +1,18 @@
+#Sidebar {
+    height: 100%;
+    width: 30vw;
+    background-color: #075985;
+    color: #f0f9ff;
+}
+
+#profile {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#Sidebar hr {
+    border: none;
+    background-color: #6b7280;
+    height: 0.1px;
+}

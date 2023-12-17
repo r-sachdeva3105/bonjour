@@ -1,0 +1,49 @@
+#MessageBox {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: 10px 0;
+}
+
+.sender {
+    align-items: flex-start;
+}
+
+.owner {
+    align-items: flex-end;
+}
+
+#MessageContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    max-width: 60%;
+}
+
+.sender #MessageContainer {
+    background-color: #38bdf8;
+    border-radius: 20px 20px 20px 0px;
+    align-items: start;
+}
+
+.owner #MessageContainer {
+    background-color: #0284c7;
+    border-radius: 20px 20px 0px 20px;
+    align-items: end;
+}
+
+#MessageContainer img {
+    width: 100px;
+
+}
+
+#MessageContainer p {
+    color: #f0f9ff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#MessageBox span {
+    font-size: 14px;
+    color: #4b5563;
+}

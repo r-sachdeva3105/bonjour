@@ -1,0 +1,7 @@
+#Home {
+    display: flex;
+    height: 80vh;
+    width: 80vw;
+    border-radius: 20px;
+    overflow: hidden;
+}

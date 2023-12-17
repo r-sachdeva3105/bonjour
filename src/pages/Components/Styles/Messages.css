@@ -1,0 +1,11 @@
+#Messages {
+    height: 80%;
+    padding: 0 20px;
+    background-color: #e0f2fe;
+    overflow: auto;
+    scroll-behavior: smooth;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: end;
+    /* align-items: end; */
+}

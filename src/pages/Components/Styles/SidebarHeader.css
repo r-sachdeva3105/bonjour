@@ -1,0 +1,29 @@
+#SidebarHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 12%;
+}
+
+#SidebarHeader h3 {
+    text-transform: lowercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logout {
+    position: absolute;
+    margin-top: 42px;
+    cursor: pointer;
+    background-color: #f0f9ff;
+    color: #075985;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+}

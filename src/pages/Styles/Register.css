@@ -1,0 +1,63 @@
+#Register {
+    text-align: center;
+    padding: 40px;
+    background-color: #f0f9ff;
+    border-radius: 10px;
+}
+
+#RegisterForm {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#name,
+#email,
+#password {
+    border-bottom: 1px solid #082f49;
+    font-size: 18px;
+    width: 300px;
+    padding: 15px;
+
+    &:focus {
+        border-bottom: 2px solid #0284c7;
+    }
+}
+
+#addAvatar+label {
+    text-align: left;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fa-image {
+    font-size: 35px;
+    margin: 0 15px;
+
+    &:hover {
+        color: #0284c7;
+    }
+}
+
+#signup {
+    font-size: 20px;
+    color: #f0f9ff;
+    background-color: #0284c7;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: 0.6s;
+    font-weight: bold;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: #7dd3fc;
+        color: #082f49;
+    }
+}
+
+h5 {
+    color: #dc2626;
+}

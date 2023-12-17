@@ -1,0 +1,42 @@
+#InputBox {
+    height: 8%;
+    background-color: #bae6fd;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-top: 0.5px solid #082f49;
+}
+
+#messageInput {
+    background-color: #f0f9ff;
+    color: #082f49;
+    font-size: 16px;
+    padding: 8px 18px;
+    width: 100%;
+    border-radius: 20px;
+    border: 0.5px solid #082f49;
+}
+
+#InputBox button {
+    border: none;
+    background-color: transparent;
+    &:disabled {
+        i {
+            cursor: not-allowed;
+            color: #9ca3af;
+        }
+    }
+}
+
+#InputBox i {
+    color: #0284c7;
+}
+
+.fa-paperclip {
+    font-size: 25px;
+}
+
+.fa-circle-arrow-right {
+    font-size: 35px;
+}
